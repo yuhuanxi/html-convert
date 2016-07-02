@@ -1,0 +1,19 @@
+{
+  "name": "html-convert",
+  "version": "0.0.1",
+  "description": "simple html convert with koa pageres and other middleware",
+  "author": {
+    "name": "yuhuanxi",
+    "email": "adobe1874@126.com"
+  },
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "node-uuid": "^1.4.7",
+    "pageres": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:yuhuanxi/html-convert.git"
+  }
+}
