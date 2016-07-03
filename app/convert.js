@@ -20,7 +20,7 @@ router.get('/convert/:url/:size', function*(ctx, next) {
     var filePath = path.join(__dirname, 'img');
     console.log(remoteUrl, size, filePath, imgName);
 
-    //TODO You can not handl the time when the window onload finished'
+    //TODO You can not handle the time when the window load finished'
     new Pageres({delay: 2, filename: imgName})
         .src(remoteUrl, [size])
         .dest(filePath)
