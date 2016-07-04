@@ -10,7 +10,8 @@
     "koa": "^1.2.0",
     "koa-router": "^5.4.0",
     "node-uuid": "^1.4.7",
-    "pageres": "^4.1.2"
+    "pageres": "^4.1.2",
+    "webpage": "latest"
   },
   "repository": {
     "type": "git",
